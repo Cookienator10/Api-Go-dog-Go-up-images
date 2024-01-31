@@ -12,6 +12,7 @@ app.set('port', 3000);
 app.set ('views', path.join(__dirname, 'views'));
 app.set ('view engine', 'ejs');
 
+
 //middelweares 
 const storage = multer.diskStorage({
     destination:  path.join(__dirname, 'public/upload') ,
